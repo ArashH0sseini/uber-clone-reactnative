@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Arash\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-8u292-b10\bin;C:\Users\Arash\Pictures\sdk\Sdk\platform-tools;C:\Program Files\Microsoft VS Code\bin;C:\flutter\bin;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\Arash\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\Arash\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Arash\AppData\Local\Programs\Python\Python310\;C:\Users\Arash\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mongosh\;C:\flutter\bin\cache\dart-sdk\bin;C:\Users\Arash\AppData\Roaming\Pub\Cache\bin;C:\Users\Arash\AppData\Local\Pub\Cache\bin;C:\Users\Arash\AppData\Local\GitHubDesktop\bin;C:\Users\Arash\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10;C:\Program Files\Java\jdk-16.0.1\bin;C:\Users\Arash\.dotnet\tools;C:\Users\Arash\Pictures\sdk\cmdline-tools\bin;C:\Users\Arash\AppData\Roaming\npm;C:\src\flutter\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Arash\Documents\React\uber-clone-reactnative\node_modules\@babel\generator\node_modules\@jridgewell\gen-mapping\src'
+
+npm manifest: 
+  {
+    "name": "uber-clone-reactnative",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "@reduxjs/toolkit": "^1.9.3",
+      "expo": "~47.0.12",
+      "expo-status-bar": "~1.4.2",
+      "react": "18.1.0",
+      "react-native": "0.70.8"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
