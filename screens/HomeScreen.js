@@ -1,4 +1,4 @@
-import { View, SafeAreaView, Image } from 'react-native'
+import { View, SafeAreaView, Image, Button } from 'react-native'
 import NavOptions from '../components/NavOptions'
 
 const HomeScreen = () => {
